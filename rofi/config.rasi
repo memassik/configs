@@ -9,8 +9,14 @@ configuration
     icon-theme: "Papirus Dark";
     font: "IosevkaTerm NF 13";
 }
-@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+@theme "/usr/share/rofi/themes/dmenu.rasi"
 
-window {
-    border-radius: 12px;
+* {
+    background-color:      #282828;
+    border-color:          #3c3836;
+    text-color:            #ebdbb2;
+    font:                  "IosevkaTerm NFM 13";
+}
+element selected {
+    background-color:      #d65d0e;
 }
